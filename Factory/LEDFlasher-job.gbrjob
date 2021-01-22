@@ -7,7 +7,7 @@
       "Application": "Pcbnew",
       "Version":     "(5.1.6)-1"
     },
-    "CreationDate":  "2020-12-28T15:25:49+01:00"
+    "CreationDate":  "2021-01-22T22:51:17+01:00"
   },
   "GeneralSpecs":
   {
@@ -15,11 +15,11 @@
     {
       "Name": "LEDFlasher",
       "GUID": "4c454446-6c61-4736-9865-722e6b696361",
-      "Revision": "v 0.1"
+      "Revision": "v 0.3"
     },
     "Size":
     {
-      "X": 63.550,
+      "X": 63.558,
       "Y": 53.390
     },
     "LayerNumber": 2,

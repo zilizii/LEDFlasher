@@ -930,6 +930,7 @@
     )
   )
 
+  (gr_arc (start 161.3027 64.91986) (end 162.56762 64.9224) (angle -90.11505161) (layer Edge.Cuts) (width 0.05) (tstamp 600B56FD))
   (gr_text "LED Flasher for Eternity" (at 131.064 67.437) (layer F.SilkS)
     (effects (font (size 2 2) (thickness 0.15)))
   )
@@ -962,9 +963,8 @@
   (gr_arc (start 100.33 115.697) (end 99.06 115.697) (angle -90) (layer Edge.Cuts) (width 0.05) (tstamp 5FEA19E9))
   (gr_line (start 99.06 64.897) (end 99.06 115.697) (layer Edge.Cuts) (width 0.05) (tstamp 5FEA19EF))
   (gr_arc (start 100.33 64.897) (end 100.33 63.627) (angle -90) (layer Edge.Cuts) (width 0.05) (tstamp 5FEA19FE))
-  (gr_arc (start 160.02 66.167) (end 162.56 66.167) (angle -90) (layer Edge.Cuts) (width 0.05) (tstamp 5FEA19F8))
-  (gr_line (start 162.56 66.167) (end 162.56 115.697) (layer Edge.Cuts) (width 0.05) (tstamp 5FEA19F2))
-  (gr_line (start 100.33 63.627) (end 160.02 63.627) (layer Edge.Cuts) (width 0.05) (tstamp 5FEA1A0E))
+  (gr_line (start 162.56762 64.9224) (end 162.56 115.697) (layer Edge.Cuts) (width 0.05) (tstamp 5FEA19F2))
+  (gr_line (start 100.33 63.627) (end 161.3027 63.654937) (layer Edge.Cuts) (width 0.05) (tstamp 5FEA1A0E))
 
   (segment (start 155.90774 93.2561) (end 155.89758 93.24594) (width 1) (layer F.Cu) (net 1))
   (segment (start 155.90774 98.87152) (end 155.90774 93.2561) (width 1) (layer F.Cu) (net 1))
