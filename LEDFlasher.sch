@@ -4,9 +4,9 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
-Date "2021-01-14"
-Rev "v0.2"
+Title "LED Flasher"
+Date "2021-01-22"
+Rev "v0.3"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -156,12 +156,12 @@ Wire Wire Line
 $Comp
 L Device:R_Small R3
 U 1 1 5FC1805C
-P 7600 2450
-F 0 "R3" V 7404 2450 50  0000 C CNN
-F 1 "4k7" V 7495 2450 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" H 7600 2450 50  0001 C CNN
-F 3 "~" H 7600 2450 50  0001 C CNN
-	1    7600 2450
+P 7500 2450
+F 0 "R3" V 7304 2450 50  0000 C CNN
+F 1 "4k7" V 7395 2450 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" H 7500 2450 50  0001 C CNN
+F 3 "~" H 7500 2450 50  0001 C CNN
+	1    7500 2450
 	0    1    1    0   
 $EndComp
 $Comp
@@ -175,8 +175,6 @@ F 3 "~" H 6500 1900 50  0001 C CNN
 	1    6500 1900
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	7100 2450 7500 2450
 Connection ~ 7100 2450
 Wire Wire Line
 	6500 2000 6500 2350
@@ -204,8 +202,6 @@ F 3 "~" H 8250 2650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7700 2450 7850 2450
-Wire Wire Line
 	7850 2850 7850 3550
 Wire Wire Line
 	7850 3550 7900 3550
@@ -227,8 +223,6 @@ Wire Wire Line
 	8650 3350 8650 2850
 Wire Wire Line
 	8650 2450 8650 1850
-Wire Wire Line
-	8650 1850 7100 1850
 $Comp
 L Device:Battery_Cell BT1
 U 1 1 5FC209EF
@@ -379,16 +373,38 @@ Connection ~ 3250 5500
 $Comp
 L Switch:SW_Push SW1
 U 1 1 600088DE
-P 7100 2150
-F 0 "SW1" V 7054 2298 50  0000 L CNN
-F 1 "SW_Push" V 7145 2298 50  0000 L CNN
-F 2 "Button_Switch_SMD:SW_SPST_CK_RS282G05A3" H 7100 2350 50  0001 C CNN
-F 3 "~" H 7100 2350 50  0001 C CNN
-	1    7100 2150
+P 7750 2150
+F 0 "SW1" V 7704 2298 50  0000 L CNN
+F 1 "SW_Push" V 7795 2298 50  0000 L CNN
+F 2 "Button_Switch_SMD:SW_SPST_CK_RS282G05A3" H 7750 2350 50  0001 C CNN
+F 3 "~" H 7750 2350 50  0001 C CNN
+	1    7750 2150
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R4
+U 1 1 600B507F
+P 8250 1850
+F 0 "R4" V 8054 1850 50  0000 C CNN
+F 1 "4k7" V 8145 1850 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" H 8250 1850 50  0001 C CNN
+F 3 "~" H 8250 1850 50  0001 C CNN
+	1    8250 1850
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	7100 1850 7100 1950
+	8650 1850 8350 1850
 Wire Wire Line
-	7100 2350 7100 2450
+	7750 1850 7750 1950
+Wire Wire Line
+	7100 2450 7400 2450
+Wire Wire Line
+	7600 2450 7750 2450
+Wire Wire Line
+	7750 2350 7750 2450
+Connection ~ 7750 2450
+Wire Wire Line
+	7750 2450 7850 2450
+Wire Wire Line
+	7750 1850 8150 1850
 $EndSCHEMATC
