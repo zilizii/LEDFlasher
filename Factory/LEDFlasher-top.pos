@@ -1,0 +1,7 @@
+### Module positions - created on 01/25/21 23:32:19 ###
+### Printed by Pcbnew version kicad (5.1.6)-1
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val       Package                     PosX       PosY       Rot  Side
+SW1       SW_Push   SW_SPST_CK_RS282G05A3   141.4058   -93.2561  180.0000  top
+## End
