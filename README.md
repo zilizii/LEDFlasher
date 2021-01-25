@@ -5,3 +5,5 @@ project as is an exact copy of : https://hackaday.io/project/28344-10-year-led-f
 
 v0.2 exact copy of the link content
 v0.3 improved design
+
+Project Use for my Kids learn to solder and practice KiCAD 5.1.6 as hobbiest...
